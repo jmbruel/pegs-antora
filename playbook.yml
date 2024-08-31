@@ -3,7 +3,7 @@
 # Antora depuis l'extérieur.
 site:
   title: 'PEGS Template'
-  url: https://jmbruel.github.io/pegs-antora
+  url: https://jmbruel.github.io/pegs-antora-demo/
   start_page: main::index.adoc
 
 content:
@@ -26,6 +26,7 @@ asciidoc:
   extensions:
     - asciidoctor-kroki
   attributes:
+    data-uri: true
     kroki-fetch-diagram: true
     figure-caption: false 
     hide-uri-scheme: false 
