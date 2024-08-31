@@ -14,10 +14,10 @@ Example of terms definition.
 === `E.1.{counter:e1}` Terms
 
 [[Book]]
-{Book}:: Copy of a book with a copy number and an availability status.
+Book:: Copy of a book with a copy number and an availability status.
 
 [[Catalog]]
-{Catalog}:: List of library <<Book,books>> and their instance availability.
+Catalog:: List of library <<Book,books>> and their instance availability.
 
 == E.2 Components
 
