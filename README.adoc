@@ -1,6 +1,7 @@
 = PEGS Antora template
 :Antora: https://antora.org/[Antora]
 :method: http://requirements.university[PEGS]
+
 This site is the repository of the {Antora} template for {method} standard plan.
 
 You can see the result link:build/site/main/1.0/index.html[here].
