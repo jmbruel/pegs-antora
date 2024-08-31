@@ -1,6 +1,15 @@
 {
+  "name": "pegs-antora",
+  "version": "1.0",
+  "scripts": {
+    "build": "antora playbook.yml",
+    "serve": "open ./build/site/index.html"
+  },
   "devDependencies": {
-    "antora": "3.1.9"
+    "antora": "3.1.9",
+    "@antora/cli": "^2.3.0",
+    "@antora/site-generator-default": "^2.3.0",
+    "http-server": "^0.12.3"
   },
   "dependencies": {
     "asciidoctor": "^3.0.4",
