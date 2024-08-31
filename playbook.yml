@@ -1,5 +1,8 @@
+# https://docs.antora.org/antora/2.3/playbook/configure-site/
+# On définit ici l'URL qui permettra d'accéder au site créé par
+# Antora depuis l'extérieur.
 site:
-  title: PEGS Template
+  title: 'PEGS Template'
   url: https://jmbruel.github.io/pegs-antora
   start_page: main::index.adoc
 
@@ -14,9 +17,16 @@ ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+  supplemental_files:
+  - path: .nojekyll
+  - path: ui.yml
+    contents: "static_files: [ .nojekyll ]"
 
 asciidoc:
+  extensions:
+    - asciidoctor-kroki
   attributes:
+    kroki-fetch-diagram: true
     figure-caption: false 
     hide-uri-scheme: false 
     project: Project
