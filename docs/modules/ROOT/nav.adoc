@@ -1,5 +1,0 @@
-* xref:index.adoc[]
-* xref:goals.adoc[]
-* xref:environment.adoc[]
-* xref:system.adoc[]
-* xref:project.adoc[]
