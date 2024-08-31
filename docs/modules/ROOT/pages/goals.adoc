@@ -1,0 +1,93 @@
+= Goals
+
+[NOTE]
+====
+Goals are "needs of the target organization, which the system will address". 
+While the development team is the principal user of the other books, the Goals book addresses a wider audience: essentially, all stakeholders (see {Handbook}).
+
+It must contain enough information to provide (if read just by itself) a general sketch of the entire project. 
+To this effect, chapter G.3 presents a short overview of the system and <<G1,G.1>> will typically include some key properties of the environment. 
+As it addresses a wide readership, it should be clear and minimize the use of specialized technical terms. 
+Together, <<G1,G.1>>, <<G2,G.2>> and <<G3,G.3>> describe the rationale for the project. 
+It is important to state these justifications explicitly. 
+Typically, they are well understood at the start of the project, but management and priorities can change  (see {Handbook}).
+====
+
+[[G1]]
+== G.1 Context and overall objectives
+
+NOTE: High-level view of the project: organizational context and reason for building a system (see {Handbook}).
+
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome Principle_, p.27 of the {handbook}).
+
+//---- Requirement
+[[g1-exp1]]
+`{counter:g1}`
+Example of numbered requirement (see <<g1-exp2, another example>>).
+//---- 
+
+//---- Requirement
+[[g1-exp2]]
+`G.1.{counter:g1}`
+Another example of numbered requirement, more explicit in its numbering (see <<g1-exp1, another example>>).
+//---- 
+
+//---- Requirement
+[[g1-exp3]]
+^`G.1.{counter:g1}`^
+A third example of numbered requirement, with a less intrusive numbering style (the one adopted in the Companion book).
+//---- 
+
+[[G2]]
+== G.2 Current situation
+
+NOTE: Current state of processes to be addressed by the project and the resulting system (see {Handbook}).
+
+
+Example of To Be Done action:
+
+//---- TBD: To Be Determined
+.TBD
+[%collapsible]
+====
+Author:: {jmb}
+Date:: 2023-08-24 
+Deadline:: 2023-12-24
+Importance:: serious
+//show-stopper / serious / desirable
+Needs:: 
+- [ ] stakeholders to ask
+- [ ] documentation to consider
+- [x] management decision (by {jmb})
+====
+
+[[G3]]
+== G.3 Expected benefits 
+
+NOTE: New processes, or improvements to existing processes, made possible by the project's results (see {Handbook}).
+
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome Principle_, p.27 of the {handbook}).
+
+== G.4 Functionality overview
+
+NOTE: Overview of the functions (behavior) of the system. Principal properties only (details are in the System book) (see {Handbook}).
+
+{emptysec}
+
+== G.5 High-level usage scenarios 
+
+NOTE: Fundamental usage paths through the system (see {Handbook}).
+
+{emptysec}
+
+== G.6 Limitations and exclusions 
+
+NOTE: Aspects that the system need not address (see {Handbook}).
+
+{emptysec}
+
+== G.7 Stakeholders and requirements sources
+
+NOTE: Groups of people who can affect the project or be affected by it, and other places to consider for information about the project and system (see {Handbook}).
+
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome Principle_, p.27 of the {handbook}).

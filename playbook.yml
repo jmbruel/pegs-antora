@@ -1,0 +1,49 @@
+site:
+  title: PEGS Template
+  start_page: ROOT:index.adoc 
+content:
+  sources: 
+  # - url: https://gitlab.com/antora/demo/demo-component-a.git
+  #   branches: HEAD
+  - url: .
+    branches: HEAD
+    start_path: docs
+ui: 
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+asciidoc:
+  attributes:
+    figure-caption: false 
+    hide-uri-scheme: false 
+    project: Project
+    version: 1.0
+    author: J.-M. Bruel
+    email: bruel@irit.fr
+    organization: IRIT/CNRS - University of Toulouse, France
+    icons: font
+    toc: macro
+    doctype: book
+# title-page-background-image: image::pegs.svg[pdfwidth=60%,align=center]
+# title-logo-image: image::pegs.svg[top=1%, align=left, pdfwidth=2.5in]
+# back-cover-image: image::pegs.svg[pdfwidth=160%,align=center]
+    method: PEGS
+#--------------------------- Glossary & Definitions
+# URLS
+    hb-url: https://se.inf.ethz.ch/requirements/
+    companionURL: https://formalrequirements.github.io/companionRequirements
+    HandbookPDF: https://link.springer.com/content/pdf/10.1007/978-3-031-06739-6.pdf
+    companionGit: https://github.com/FormalRequirements/requirements-handbook
+    handbook: link:{hb-url}[Handbook]
+    emptysec: icon:warning[] Nothing available at this point.
+# ICONS
+    check: icon:check-circle[]
+    nocheck: icon:times-circle[]
+    missing: icon:bug[]
+# GLOSSARY ENTRIES
+    Book: <<Book, Book>>
+    Catalog:  <<Catalog, Catalog>>
+# PERSONS ENTRIES
+    jmb: https://jmbruel.netlify.app[J.-M. Bruel]
+

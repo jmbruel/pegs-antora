@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Antora Requirements Documentation Template :: PEGS Template</title>
+    <meta name="generator" content="Antora 3.1.9">
+    <link rel="stylesheet" href="../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../..">PEGS Template</a>
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="main" data-version="1.0">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="index.html">PEGS Requirements</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="index.html">Antora Requirements Documentation Template</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="goals.html">Goals</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="environment.html">Environment</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="system.html">System</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="project.html">Project</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">PEGS Requirements</span>
+    <span class="version">1.0</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <div class="title"><a href="index.html">PEGS Requirements</a></div>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">1.0</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">PEGS Requirements</a></li>
+    <li><a href="index.html">Antora Requirements Documentation Template</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="file:///Users/jmb/localdev/teaching/pegs-antora/docs/modules/ROOT/pages/index.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Antora Requirements Documentation Template</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>This document follows the requirements documentation structure presented in the <a href="https://link.springer.com/content/pdf/10.1007/978-3-031-06739-6.pdf">Handbook of requirements and business analysis</a>.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><strong>CHANGELOG</strong></p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 60%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Version</th>
+<th class="tableblock halign-left valign-top">Date</th>
+<th class="tableblock halign-left valign-top">Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1.0</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2024-08-31</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Initial draft (from Asciidoc template) by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_goals"><a class="anchor" href="#_goals"></a>Goals</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Goals are "needs of the target organization, which the system will address".
+While the development team is the principal user of the other books, the Goals book addresses a wider audience: essentially, all stakeholders (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).</p>
+</div>
+<div class="paragraph">
+<p>It must contain enough information to provide (if read just by itself) a general sketch of the entire project.
+To this effect, chapter G.3 presents a short overview of the system and <a href="#G1">G.1</a> will typically include some key properties of the environment.
+As it addresses a wide readership, it should be clear and minimize the use of specialized technical terms.
+Together, <a href="#G1">G.1</a>, <a href="#G2">G.2</a> and <a href="#G3">G.3</a> describe the rationale for the project.
+It is important to state these justifications explicitly.
+Typically, they are well understood at the start of the project, but management and priorities can change  (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="G1"><a class="anchor" href="#G1"></a>G.1 Context and overall objectives</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+High-level view of the project: organizational context and reason for building a system (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+This chapter should not be empty (following the <em>Minimum Requirements Outcome Principle</em>, p.27 of the <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div id="g1-exp1" class="paragraph">
+<p><code>1</code>
+Example of numbered requirement (see <a href="#g1-exp2">another example</a>).</p>
+</div>
+<div id="g1-exp2" class="paragraph">
+<p><code>G.1.2</code>
+Another example of numbered requirement, more explicit in its numbering (see <a href="#g1-exp1">another example</a>).</p>
+</div>
+<div id="g1-exp3" class="paragraph">
+<p><sup><code>G.1.3</code></sup>
+A third example of numbered requirement, with a less intrusive numbering style (the one adopted in the Companion book).</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="G2"><a class="anchor" href="#G2"></a>G.2 Current situation</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Current state of processes to be addressed by the project and the resulting system (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Example of To Be Done action:</p>
+</div>
+<details>
+<summary class="title">TBD</summary>
+<div class="content">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Author</dt>
+<dd>
+<p><a href="https://jmbruel.netlify.app">J.-M. Bruel</a></p>
+</dd>
+<dt class="hdlist1">Date</dt>
+<dd>
+<p>2023-08-24</p>
+</dd>
+<dt class="hdlist1">Deadline</dt>
+<dd>
+<p>2023-12-24</p>
+</dd>
+<dt class="hdlist1">Importance</dt>
+<dd>
+<p>serious</p>
+</dd>
+<dt class="hdlist1">Needs</dt>
+<dd>
+<div class="ulist checklist">
+<ul class="checklist">
+<li>
+<p><i class="fa fa-square-o"></i> stakeholders to ask</p>
+</li>
+<li>
+<p><i class="fa fa-square-o"></i> documentation to consider</p>
+</li>
+<li>
+<p><i class="fa fa-check-square-o"></i> management decision (by <a href="https://jmbruel.netlify.app">J.-M. Bruel</a>)</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</details>
+</div>
+<div class="sect2">
+<h3 id="G3"><a class="anchor" href="#G3"></a>G.3 Expected benefits</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+New processes, or improvements to existing processes, made possible by the project&#8217;s results (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+This chapter should not be empty (following the <em>Minimum Requirements Outcome Principle</em>, p.27 of the <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_g_4_functionality_overview"><a class="anchor" href="#_g_4_functionality_overview"></a>G.4 Functionality overview</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Overview of the functions (behavior) of the system. Principal properties only (details are in the System book) (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_g_5_high_level_usage_scenarios"><a class="anchor" href="#_g_5_high_level_usage_scenarios"></a>G.5 High-level usage scenarios</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Fundamental usage paths through the system (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_g_6_limitations_and_exclusions"><a class="anchor" href="#_g_6_limitations_and_exclusions"></a>G.6 Limitations and exclusions</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Aspects that the system need not address (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_g_7_stakeholders_and_requirements_sources"><a class="anchor" href="#_g_7_stakeholders_and_requirements_sources"></a>G.7 Stakeholders and requirements sources</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Groups of people who can affect the project or be affected by it, and other places to consider for information about the project and system (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+This chapter should not be empty (following the <em>Minimum Requirements Outcome Principle</em>, p.27 of the <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_environment"><a class="anchor" href="#_environment"></a>Environment</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The Environment book describes the application domain and external context, physical or virtual (or a mix), in which the system will operate (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_e_1_glossary"><a class="anchor" href="#_e_1_glossary"></a>E.1 Glossary</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Clear and precise definitions of all the vocabulary specific to the application domain, including technical terms, words from ordinary language used in a special meaning, and acronyms (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+This chapter should not be empty (following the Glossary Principle_, p.27 of the <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Example of terms definition.</p>
+</div>
+<div class="sect3">
+<h4 id="e1-terms"><a class="anchor" href="#e1-terms"></a><code>E.1.1</code> Terms</h4>
+<div id="Book" class="dlist">
+<dl>
+<dt class="hdlist1"><<Book, Book>></dt>
+<dd>
+<p>Copy of a book with a copy number and an availability status.</p>
+</dd>
+</dl>
+</div>
+<div id="Catalog" class="dlist">
+<dl>
+<dt class="hdlist1"><<Catalog, Catalog>></dt>
+<dd>
+<p>List of library <a href="#Book">books</a> and their instance availability.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_e_2_components"><a class="anchor" href="#_e_2_components"></a>E.2 Components</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+List of elements of the environment that may affect or be affected by the system and project. Includes other systems to which the system must be interfaced (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_e_3_constraints"><a class="anchor" href="#_e_3_constraints"></a>E.3 Constraints</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Obligations and limits imposed on the project and system by the environment (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+This chapter should not be empty (following the <em>Minimum Requirements Outcome Principle</em>, p.27 of the <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_e_4_assumptions"><a class="anchor" href="#_e_4_assumptions"></a>E.4 Assumptions</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Properties of the environment that may be assumed, with the goal of facilitating the project and simplifying the system (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_e_5_effects"><a class="anchor" href="#_e_5_effects"></a>E.5 Effects</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Elements and properties of the environment that the system will affect (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_e_6_invariants"><a class="anchor" href="#_e_6_invariants"></a>E.6 Invariants</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Properties of the environment that the system&#8217;s operation must preserve (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_system"><a class="anchor" href="#_system"></a>System</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The System book refines the Goal one by focusing on more detailed requirements about the system under development, mainly its constituents, behaviors and properties.
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_s_1_components"><a class="anchor" href="#_s_1_components"></a>S.1 Components</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Overall structure expressed by the list of major software and, if applicable, hardware parts (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+This chapter should not be empty (following the <em>Minimum Requirements Outcome Principle</em>, p.27 of the <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_s_2_functionality"><a class="anchor" href="#_s_2_functionality"></a>S.2 Functionality</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+One section, S.2.n, for each of the components identified in S.1, describing the corresponding behaviors (functional and non-functional properties; see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+This chapter should not be empty (following the <em>Minimum Requirements Outcome Principle</em>, p.27 of the <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_s_3_interfaces"><a class="anchor" href="#_s_3_interfaces"></a>S.3 Interfaces</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+How the system makes the functionality of S.2 available to the rest of the world, particularly user interfaces and program interfaces (APIs) (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_s_4_detailed_usage_scenarios"><a class="anchor" href="#_s_4_detailed_usage_scenarios"></a>S.4 Detailed usage scenarios</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Examples of interaction between the environment (or human users) and the system: use cases, user stories (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_s_5_prioritization"><a class="anchor" href="#_s_5_prioritization"></a>S.5 Prioritization</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Classification of the behaviors, interfaces and scenarios (S.2, S.3 and S.4) by their degree of criticality (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_s_6_verification_and_acceptance_criteria"><a class="anchor" href="#_s_6_verification_and_acceptance_criteria"></a>S.6 Verification and acceptance criteria</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Specification of the conditions under which an implementation will be deemed satisfactory (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_project"><a class="anchor" href="#_project"></a>Project</h2>
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+The Project book describes all the constraints and expectations not about the system itself, but about how to develop and produce it.
+</td>
+</tr>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_p_1_roles_and_personnel"><a class="anchor" href="#_p_1_roles_and_personnel"></a>P.1 Roles and personnel</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Main responsibilities in the project; required project staff and their needed qualifications (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_p_2_imposed_technical_choices"><a class="anchor" href="#_p_2_imposed_technical_choices"></a>P.2 Imposed technical choices</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Any a priori choices binding the project to specific tools, hardware, languages or other technical parameters (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_p_3_schedule_and_milestones"><a class="anchor" href="#_p_3_schedule_and_milestones"></a>P.3 Schedule and milestones</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+List of tasks to be carried out and their scheduling (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+This chapter should not be empty (following the <em>Minimum Requirements Outcome Principle</em>, p.27 of the <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_p_4_tasks_and_deliverables"><a class="anchor" href="#_p_4_tasks_and_deliverables"></a>P.4 Tasks and deliverables</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Details of individual tasks listed under P.3 and their expected outcomes (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+This chapter should not be empty (following the <em>Minimum Requirements Outcome Principle</em>, p.27 of the <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_p_5_required_technology_elements"><a class="anchor" href="#_p_5_required_technology_elements"></a>P.5 Required technology elements</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+External systems, hardware and software, expected to be necessary for building the system (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_p_6_risk_and_mitigation_analysis"><a class="anchor" href="#_p_6_risk_and_mitigation_analysis"></a>P.6 Risk and mitigation analysis</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Potential obstacles to meeting the schedule of P.4, and measures for adapting the plan if they do arise (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_p_7_requirements_process_and_report"><a class="anchor" href="#_p_7_requirements_process_and_report"></a>P.7 Requirements process and report</h3>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Initially, description of what the requirements process will be; later, report on its steps (see <a href="https://se.inf.ethz.ch/requirements/">Handbook</a>).
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p><span class="icon"><i class="fa fa-warning"></i></span> Nothing available at this point.</p>
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

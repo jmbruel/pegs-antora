@@ -1,0 +1,39 @@
+= System
+
+NOTE: The System book refines the Goal one by focusing on more detailed requirements about the system under development, mainly its constituents, behaviors and properties.
+
+== S.1 Components
+
+NOTE: Overall structure expressed by the list of major software and, if applicable, hardware parts (see {Handbook}).
+
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome Principle_, p.27 of the {handbook}).
+
+== S.2 Functionality
+
+NOTE: One section, S.2.n, for each of the components identified in S.1, describing the corresponding behaviors (functional and non-functional properties; see {Handbook}).
+
+WARNING: This chapter should not be empty (following the _Minimum Requirements Outcome Principle_, p.27 of the {handbook}).
+
+== S.3 Interfaces
+
+NOTE: How the system makes the functionality of S.2 available to the rest of the world, particularly user interfaces and program interfaces (APIs) (see {Handbook}).
+
+{emptysec}
+
+== S.4 Detailed usage scenarios
+
+NOTE: Examples of interaction between the environment (or human users) and the system: use cases, user stories (see {Handbook}).
+
+{emptysec}
+
+== S.5 Prioritization
+
+NOTE: Classification of the behaviors, interfaces and scenarios (S.2, S.3 and S.4) by their degree of criticality (see {Handbook}).
+
+{emptysec}
+
+== S.6 Verification and acceptance criteria
+
+NOTE: Specification of the conditions under which an implementation will be deemed satisfactory (see {Handbook}).
+
+{emptysec}
