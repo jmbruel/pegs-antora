@@ -1,6 +1,8 @@
 site:
   title: PEGS Template
-  start_page: ROOT:index.adoc 
+  url: https://jmbruel.github.io/pegs-antora
+  start_page: main::index.adoc
+
 content:
   sources: 
   # - url: https://gitlab.com/antora/demo/demo-component-a.git
