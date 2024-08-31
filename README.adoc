@@ -4,4 +4,4 @@
 
 This site is the repository of the {Antora} template for {method} standard plan.
 
-You can see the result at https://jmbruel.github.io/pegs-antora.
+You can see the result by cloning the repo and opening `build/site/index.html`.
