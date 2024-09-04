@@ -3,7 +3,7 @@
 # Antora depuis l'extérieur.
 site:
   title: 'PEGS Template'
-  url: https://jmbruel.github.io/pegs-antora-demo/
+  url: https://jmbruel.github.io/pegs-antora/
   start_page: main::index.adoc
 
 content:
