@@ -2,12 +2,15 @@
 :Antora: https://antora.org/[Antora]
 :method: http://requirements.university[PEGS]
 
+// Badges
+image:https://github.com/jmbruel/pegs-antora/actions/workflows/deploy.yml/badge.svg["Deploy Documentation", link="https://github.com/jmbruel/pegs-antora/actions/workflows/deploy.yml"]
+
 This site is the repository of the {Antora} template for {method} standard plan.
 
 You can see the result by:
 
 - cloning the repo and opening `build/site/index.html` (safest)
-- trying https://jmbruel.github.io/pegs-antora (no guarantee)
+- trying https://jmbruel.github.io/pegs-antora (only if the badge above is green)
 
 You will need {Antora} if you want to rebuild the site:
 
