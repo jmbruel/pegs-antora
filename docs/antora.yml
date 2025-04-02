@@ -7,7 +7,7 @@ version: '1.0'
 # display_version: α
 
 # https://docs.antora.org/antora/2.3/component-title/
-title: PEGS Requirements
+title: BASAALT
 
 # https://docs.antora.org/antora/2.3/component-start-page/
 start_page: index.adoc

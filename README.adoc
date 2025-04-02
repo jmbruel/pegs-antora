@@ -8,3 +8,9 @@ You can see the result by:
 
 - cloning the repo and opening `build/site/index.html` (safest)
 - trying https://jmbruel.github.io/pegs-antora (no guarantee)
+
+You will need {Antora} if you want to rebuild the site:
+
+```
+npm install -g @antora/cli @antora/site-generator-default
+```

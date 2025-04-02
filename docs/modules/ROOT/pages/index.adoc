@@ -1,11 +1,8 @@
-= Antora Requirements Documentation Template
-{author},{email}
-{version} -- {localdate}
-
+= Behaviour Analysis & Simulation All Along systems Life Time
 
 [NOTE]
 ====
-This document follows the requirements documentation structure presented in the {HandbookPDF}[Handbook of requirements and business analysis].
+This document blabla.
 ====
 
 *CHANGELOG*
@@ -15,13 +12,13 @@ This document follows the requirements documentation structure presented in the 
 |===
 | Version | Date | Comment 
 //----------------------------------------------
-| 1.0    | 2024-08-31 | Initial draft (from Asciidoc template) by {jmb}
+| 1.0    | 2024-10-21 | Initial draft (from Antora PEGS template) by {jmb}
 //| _{version}_ | _{localdate}_ | _Current PDF version, by {jmb}_
 |=== 
 //----------------------------------------------
 
 
-include::ROOT:page$goals.adoc[leveloffset=+1]
-include::ROOT:page$environment.adoc[leveloffset=+1]
-include::ROOT:page$system.adoc[leveloffset=+1]
-include::ROOT:page$project.adoc[leveloffset=+1]
+// include::ROOT:page$goals.adoc[leveloffset=+1]
+// include::ROOT:page$environment.adoc[leveloffset=+1]
+// include::ROOT:page$system.adoc[leveloffset=+1]
+// include::ROOT:page$project.adoc[leveloffset=+1]
