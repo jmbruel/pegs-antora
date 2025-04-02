@@ -3,8 +3,8 @@
 # Antora depuis l'extérieur.
 site:
   title: 'BASAALT'
-  url: https://...
-  start_page: main::index.adoc
+  url: https://jmbruel.github.io/pegs-antora/
+    start_page: main::index.adoc
 
 content:
   sources: 
