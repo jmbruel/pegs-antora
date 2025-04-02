@@ -4,7 +4,7 @@
 site:
   title: 'BASAALT'
   url: https://jmbruel.github.io/pegs-antora/
-    start_page: main::index.adoc
+  start_page: main::index.adoc
 
 content:
   sources: 
