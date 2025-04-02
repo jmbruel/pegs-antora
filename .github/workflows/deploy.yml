@@ -53,9 +53,9 @@ jobs:
       #     publish_dir: ./build/site
 
       - name: Install Antora
-        run: npm i antora
+        run: npm install -g @antora/cli @antora/site-generator-default
       - name: Generate Site
-        run: npx antora antora-playbook.yml
+        run: antora antora-playbook.yml
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
         with:
